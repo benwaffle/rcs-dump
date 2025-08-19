@@ -1,0 +1,449 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "Carrier Services_carrierservices.android_20240610_00_RC00.phone_APKPure.apk"
+  ],
+  "treeExpansionsV2": [
+    "c:com.google.android.ims.providers.CarrierServicesRcsContentProvider",
+    "c:com.google.android.ims.services.RcsService",
+    "p:com.google.android.ims.jibe.service.connectiontracker",
+    "p:com.google.android.ims.jibe.service.filetransfer",
+    "p:com.google.android.ims.messaging",
+    "p:com.google.android.ims.provisioning.config",
+    "p:com.google.android.ims.jibe.service.singleregistration",
+    "p:com.google.android.ims.rcs.engine",
+    "p:com.google.android.ims.rcsservice.ims",
+    "p:com.google.android.ims.rcs.engine.impl",
+    "p:com.google.android.ims.jibe.service.transportcontrol",
+    "p:com.google.android.ims.jibe.service.contactsmanager",
+    "p:com.google.android.ims.receivers",
+    "p:com.google.android.ims.jibe.service.businessinfo",
+    "t:JResources"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "edg"
+        },
+        "newName": "SipConnectionType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fgy"
+        },
+        "newName": "ImsModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fjd"
+        },
+        "newName": "SingleRegistrationRegistrationController"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fkc"
+        },
+        "newName": "SingleRegistrationStatemachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gha"
+        },
+        "newName": "CarrierServicesLog"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gij"
+        },
+        "newName": "RegistrationKind"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "jqg"
+        },
+        "newName": "Map"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "mcj"
+        },
+        "newName": "Enum"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "nfz"
+        },
+        "newName": "RCSTransportType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.ims.rcs.engine.impl.RcsEngineImpl",
+          "shortId": "ad:Lfgy;"
+        },
+        "newName": "imsModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.ims.rcs.engine.impl.RcsEngineImpl",
+          "shortId": "al:Ledg;"
+        },
+        "newName": "sipConnType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "edg",
+          "shortId": "a:Lgij;"
+        },
+        "newName": "sipConnType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fgs",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "instanceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fgs",
+          "shortId": "g:J"
+        },
+        "newName": "sequenceNo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fjd",
+          "shortId": "d:Lfkc;"
+        },
+        "newName": "stateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ggm",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "carrierServices"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gha",
+          "shortId": "d:Ljui;"
+        },
+        "newName": "idk"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "nfz",
+          "shortId": "d:I"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "avl",
+          "shortId": "a([I[I)Landroid/net/NetworkRequest;"
+        },
+        "newName": "buildNetworkRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "avl",
+          "shortId": "a([I[I)Landroid/net/NetworkRequest;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "caps"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "avl",
+          "shortId": "a([I[I)Landroid/net/NetworkRequest;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "transports"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "avl",
+          "shortId": "b([I[I)Lavn;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "caps"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.android.ims.jibe.service.singleregistration.SingleRegistrationVendorImsController",
+          "shortId": "setupVendorIms(I)Lcom/google/android/ims/rcs/singleregistration/SingleRegistrationVendorImsServiceResult;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "simInfoProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.android.ims.jibe.service.singleregistration.SingleRegistrationVendorImsController",
+          "shortId": "setupVendorIms(I)Lcom/google/android/ims/rcs/singleregistration/SingleRegistrationVendorImsServiceResult;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.android.ims.jibe.service.singleregistration.SingleRegistrationVendorImsController",
+          "shortId": "setupVendorIms(I)Lcom/google/android/ims/rcs/singleregistration/SingleRegistrationVendorImsServiceResult;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.android.ims.rcs.engine.impl.RcsEngineImpl",
+          "shortId": "b(Lcom/google/android/ims/provisioning/config/Configuration;Lghu;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "imsModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "edg",
+          "shortId": "a()Lgij;"
+        },
+        "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "get",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "format"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "get",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "destPort"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "f()Ljava/lang/String;"
+        },
+        "newName": "clientId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "i()Ljava/lang/String;"
+        },
+        "newName": "provAcsUrlOverride"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "j(Ljava/io/PrintWriter;)V"
+        },
+        "newName": "logJibeData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "s()Z"
+        },
+        "newName": "provAcsUrlOverride"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "t()Z"
+        },
+        "newName": "provSmsPortOverride"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "jqg",
+          "shortId": "m(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljqg;"
+        },
+        "newName": "init"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "nfz",
+          "shortId": "a()I"
+        },
+        "newName": "getValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "nfz",
+          "shortId": "b(I)Lnfz;"
+        },
+        "newName": "fromInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oxs",
+          "shortId": "e(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "assertNonNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oxs",
+          "shortId": "g(Ljava/lang/String;)V"
+        },
+        "newName": "throwNPE"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "avl",
+      "subPath": "java",
+      "caret": 1010,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "aux",
+      "subPath": "java",
+      "caret": 3012,
+      "view": {
+        "x": 0,
+        "y": 1472
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "oxs",
+      "subPath": "java",
+      "caret": 1243,
+      "view": {
+        "x": 0,
+        "y": 247
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ajm",
+      "subPath": "java",
+      "caret": 1258,
+      "view": {
+        "x": 0,
+        "y": 122
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Carrier Services_carrierservices.android_20240610_00_RC00.phone_APKPure-e0e969940ce6bf938a811c744ac51e96",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "addTransportType",
+    "addCapability",
+    "android.telephony.ims.",
+    "ipsec",
+    "dual_reg",
+    "DUAL_REG",
+    "imsreg",
+    "NAPTR",
+    "cscf",
+    "acs_url",
+    "acs",
+    "android.telephony.ims",
+    "android.telephony"
+  ],
+  "searchResourcesFilter": "*",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}
