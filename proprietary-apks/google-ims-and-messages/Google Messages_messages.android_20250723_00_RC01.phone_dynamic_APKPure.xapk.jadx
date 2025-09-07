@@ -63,6 +63,32 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "diwj",
+          "shortId": "r(Ljava/net/HttpURLConnection;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 32
+        },
+        "comment": "1 --\u003e END_DOCUMENT",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwj",
+          "shortId": "r(Ljava/net/HttpURLConnection;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 35
+        },
+        "comment": "2 --\u003e START_TAG",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dtrv",
           "shortId": "a(Leruw;)Ljava/lang/Object;"
         },
@@ -251,6 +277,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "aupf"
+        },
+        "newName": "WwwAuthenticateHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "awke"
         },
         "newName": "CrashOnUnexpectedExceptionFutureCallback"
@@ -433,6 +466,27 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "chja"
+        },
+        "newName": "TachyonIdentityKeyGetter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "chjd"
+        },
+        "newName": "TachyonState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "chle"
+        },
+        "newName": "TachyonPhoneDataService"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ckrg"
         },
         "newName": "RcsLocalIdentityProvider"
@@ -506,6 +560,13 @@
           "declClass": "clvn"
         },
         "newName": "RcsLimboMessagesResolverWorker"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "cmre"
+        },
+        "newName": "GoogleToSConsentState"
       },
       {
         "nodeRef": {
@@ -632,6 +693,13 @@
           "declClass": "cpop"
         },
         "newName": "DefaultSims"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "cppv"
+        },
+        "newName": "SimInfo"
       },
       {
         "nodeRef": {
@@ -912,6 +980,20 @@
           "declClass": "deyi"
         },
         "newName": "ConstellationFeatures"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dfpm"
+        },
+        "newName": "InstanceIDRegistrar"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dfpn"
+        },
+        "newName": "InstanceID"
       },
       {
         "nodeRef": {
@@ -1245,6 +1327,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "dhrz"
+        },
+        "newName": "UAHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dhuk"
         },
         "newName": "cslibenable_rcs_settings_status"
@@ -1497,6 +1586,34 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "dimb"
+        },
+        "newName": "SipRegistrationSipTransport"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dinv"
+        },
+        "newName": "RegistrationState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dios"
+        },
+        "newName": "ReconfigurationRequiredState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diox"
+        },
+        "newName": "RegisteringState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dipe"
         },
         "newName": "StoppedState"
@@ -1581,6 +1698,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "disu"
+        },
+        "newName": "Cookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "disv"
         },
         "newName": "SipParams"
@@ -1623,6 +1747,34 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "diub"
+        },
+        "newName": "TosConsentAndToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diuc"
+        },
+        "newName": "ITosConsentAndToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diuh"
+        },
+        "newName": "DroidGuardContentBinding"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dium"
+        },
+        "newName": "IDroidGuardContentBinding"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dius"
         },
         "newName": "ProvSessLogData"
@@ -1644,6 +1796,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "divs"
+        },
+        "newName": "ConfiguredState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "divw"
         },
         "newName": "EnabledState"
@@ -1651,9 +1810,30 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "divz"
+        },
+        "newName": "GetGoogleToSConsentState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diwd"
+        },
+        "newName": "ProcessConfigurationState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "diwf"
         },
         "newName": "ReadyState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diwj"
+        },
+        "newName": "RequestAttestationState"
       },
       {
         "nodeRef": {
@@ -1672,6 +1852,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "diwm"
+        },
+        "newName": "RequestWithMsisdnState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "diwp"
         },
         "newName": "RequestWithMsisdnTokenState"
@@ -1679,9 +1866,30 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "diws"
+        },
+        "newName": "RequestWithTokenState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diwt"
+        },
+        "newName": "RcsProvisioningRequestWithoutAuthState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "diwu"
         },
         "newName": "RetryState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "diwy"
+        },
+        "newName": "SetGoogleToSConsentState"
       },
       {
         "nodeRef": {
@@ -1700,6 +1908,27 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "dixg"
+        },
+        "newName": "VerifyOtpState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dixj"
+        },
+        "newName": "WaitingForAppOpenState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dixl"
+        },
+        "newName": "WaitingForGoogleTosState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dixo"
         },
         "newName": "WaitingForManualMsisdnEntryState"
@@ -1710,6 +1939,20 @@
           "declClass": "dixp"
         },
         "newName": "WaitingForOtpState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dixr"
+        },
+        "newName": "WaitingForRcsDefaultOnState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dixt"
+        },
+        "newName": "WaitingForTermsAndConditionsState"
       },
       {
         "nodeRef": {
@@ -1833,9 +2076,30 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "djoy"
+        },
+        "newName": "SimWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djoz"
+        },
+        "newName": "ISimInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "djpa"
         },
         "newName": "SimPreferences"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djpg"
+        },
+        "newName": "SimStateTracker"
       },
       {
         "nodeRef": {
@@ -1889,6 +2153,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "djub"
+        },
+        "newName": "SipUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "djud"
         },
         "newName": "UserAgent"
@@ -1906,6 +2177,20 @@
           "declClass": "djuo"
         },
         "newName": "RegType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djuy"
+        },
+        "newName": "SubMgrWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djvb"
+        },
+        "newName": "TelephonyMgrWrapper"
       },
       {
         "nodeRef": {
@@ -2197,6 +2482,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "eene"
+        },
+        "newName": "SipMsgBuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "eenf"
         },
         "newName": "SipDialogPath"
@@ -2288,9 +2580,30 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "eeqa"
+        },
+        "newName": "ContentIdHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "eeqb"
         },
         "newName": "ContentLength"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eeqd"
+        },
+        "newName": "DateHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eeqf"
+        },
+        "newName": "ExpiresHeader"
       },
       {
         "nodeRef": {
@@ -2316,6 +2629,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "eeqk"
+        },
+        "newName": "MaxForwardsHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "eeqo"
         },
         "newName": "SipProtoVersionTransport"
@@ -2333,6 +2653,13 @@
           "declClass": "eequ"
         },
         "newName": "Route"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eeqw"
+        },
+        "newName": "XPidgeySelectedExperimentsHeader"
       },
       {
         "nodeRef": {
@@ -2382,6 +2709,20 @@
           "declClass": "eesv"
         },
         "newName": "SipBody"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eesx"
+        },
+        "newName": "SipMsg"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eesy"
+        },
+        "newName": "SipRegistrationRequest"
       },
       {
         "nodeRef": {
@@ -2900,6 +3241,13 @@
           "declClass": "evws"
         },
         "newName": "QuicHint"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ewzd"
+        },
+        "newName": "UpiSomethign"
       },
       {
         "nodeRef": {
@@ -3521,6 +3869,62 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "schema"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "realm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "c:Lj$/util/Optional;"
+        },
+        "newName": "qop"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "nonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "e:Lj$/util/Optional;"
+        },
+        "newName": "opaque"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "f:Lj$/util/Optional;"
+        },
+        "newName": "domain"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "aupf",
+          "shortId": "g:Lj$/util/Optional;"
+        },
+        "newName": "stale"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "bzoa",
           "shortId": "a:Landroid/net/Uri;"
         },
@@ -3737,6 +4141,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "chja",
+          "shortId": "a:Lctds;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ckrg",
           "shortId": "e:Lcom/google/common/flogger/GoogleLogger;"
         },
@@ -3861,6 +4273,30 @@
           "shortId": "g:I"
         },
         "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cmyn",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cmyn",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "tosUrlPerhaps"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cmyn",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "langTag"
       },
       {
         "nodeRef": {
@@ -4021,6 +4457,30 @@
           "shortId": "VCARD_END_OF_LINE:Ljava/lang/String;"
         },
         "newName": "CRLF"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.gms.asterism.GetAsterismConsentRequest",
+          "shortId": "a:I"
+        },
+        "newName": "requestCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.gms.asterism.GetAsterismConsentResponse",
+          "shortId": "b:I"
+        },
+        "newName": "tosConsentState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.gms.asterism.GetAsterismConsentResponse",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "gmscoreIidToken"
       },
       {
         "nodeRef": {
@@ -4205,6 +4665,94 @@
           "shortId": "d:I"
         },
         "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "e:I"
+        },
+        "newName": "slot_index"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "f:Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "g:Ljava/lang/String;"
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "k:Ljava/lang/String;"
+        },
+        "newName": "mcc"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "l:Ljava/lang/String;"
+        },
+        "newName": "mnc"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "o:Z"
+        },
+        "newName": "isFiDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "p:Ljava/lang/String;"
+        },
+        "newName": "sim_loggable_guid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "r:Ljava/lang/String;"
+        },
+        "newName": "carrier"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "s:Ljava/lang/String;"
+        },
+        "newName": "sim_operator"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "t:Ljava/lang/String;"
+        },
+        "newName": "gid1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cppv",
+          "shortId": "u:Ljava/lang/String;"
+        },
+        "newName": "preferred_subscription_name"
       },
       {
         "nodeRef": {
@@ -4645,6 +5193,14 @@
           "shortId": "i:[Lcom/google/android/gms/common/Feature;"
         },
         "newName": "features"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dfou",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "myPkgVersion"
       },
       {
         "nodeRef": {
@@ -5738,6 +6294,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dhyk",
+          "shortId": "n:Ldhyf;"
+        },
+        "newName": "enable_single_registration_tmo_gba_download_feature"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhyk",
           "shortId": "s:Ldhyf;"
         },
         "newName": "gba_auth_naf_id"
@@ -5978,6 +6542,22 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dhzm",
+          "shortId": "n:Ldhyf;"
+        },
+        "newName": "enable_rcs_consent_via_asterism_api"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhzm",
+          "shortId": "o:Ldhyf;"
+        },
+        "newName": "enforce_rcs_consent_via_asterism_api"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhzm",
           "shortId": "v:Ldhyf;"
         },
         "newName": "enable_upi_mvp"
@@ -6041,6 +6621,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "dhzs",
+          "shortId": "p:Ldhyf;"
+        },
+        "newName": "enable_rcs_server_keep_alives"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhzs",
+          "shortId": "x:Ldhyf;"
+        },
+        "newName": "enable_x_google_self_service_message_id_header"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "dikg",
           "shortId": "c:Ljava/lang/String;"
         },
@@ -6057,10 +6653,34 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "dikg",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "realm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "dikr",
           "shortId": "b:Lenkn;"
         },
         "newName": "featureIds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "ai:Ldinv;"
+        },
+        "newName": "reconfigurationRequiredState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "v:Leenf;"
+        },
+        "newName": "sipDialogPath"
       },
       {
         "nodeRef": {
@@ -6125,6 +6745,38 @@
           "shortId": "a:Leraz;"
         },
         "newName": "mAvailability"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "disu",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "disu",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "disu",
+          "shortId": "c:J"
+        },
+        "newName": "c"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "disu",
+          "shortId": "d:J"
+        },
+        "newName": "maxAge"
       },
       {
         "nodeRef": {
@@ -6473,6 +7125,150 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "diua",
+          "shortId": "c:Ldjce;"
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diub",
+          "shortId": "a:Lcmre;"
+        },
+        "newName": "googleToSConsentState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diub",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "msisdnToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "gmsCoreIidToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "salt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "imei"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "f:Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "g:Ljava/lang/String;"
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diug",
+          "shortId": "h:Ljava/lang/String;"
+        },
+        "newName": "cookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "msisdnToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "gmsCoreIidToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "cookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "f:Ljava/lang/String;"
+        },
+        "newName": "droidGuardSalt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "g:Ljava/lang/String;"
+        },
+        "newName": "imei"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diuh",
+          "shortId": "h:Lj$/util/Optional;"
+        },
+        "newName": "provisioningSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "dius",
           "shortId": "c:Z"
         },
@@ -6513,7 +7309,23 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "diwk",
+          "shortId": "a:Ldixu;"
+        },
+        "newName": "stateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "diwp",
+          "shortId": "a:Ldixu;"
+        },
+        "newName": "stateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "diwt",
           "shortId": "a:Ldixu;"
         },
         "newName": "stateMachine"
@@ -6554,9 +7366,33 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dixu",
+          "shortId": "G:Z"
+        },
+        "newName": "hasSimId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
+          "shortId": "H:Lcppv;"
+        },
+        "newName": "simInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
           "shortId": "L:Lfghl;"
         },
         "newName": "provisioningSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
+          "shortId": "Y:Lcgpa;"
+        },
+        "newName": "someConfig"
       },
       {
         "nodeRef": {
@@ -6578,6 +7414,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dixu",
+          "shortId": "aN:Lj$/util/Optional;"
+        },
+        "newName": "tachyonIdKeyGetter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
           "shortId": "ad:Lfghl;"
         },
         "newName": "cslib_enable_rcs_settings_status"
@@ -6594,6 +7438,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dixu",
+          "shortId": "ap:Ldixb;"
+        },
+        "newName": "requestWithImsiState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
           "shortId": "aq:Ldixb;"
         },
         "newName": "retryState"
@@ -6602,9 +7454,33 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dixu",
+          "shortId": "aw:Ldixb;"
+        },
+        "newName": "requestWithHeState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
           "shortId": "h:Ljava/lang/String;"
         },
         "newName": "simId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
+          "shortId": "i:I"
+        },
+        "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dixu",
+          "shortId": "j:Ljava/lang/String;"
+        },
+        "newName": "imsi"
       },
       {
         "nodeRef": {
@@ -7034,6 +7910,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "djpa",
+          "shortId": "a:Lddrm;"
+        },
+        "newName": "prefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djpa",
           "shortId": "b:Lddrk;"
         },
         "newName": "simId"
@@ -7149,6 +8033,22 @@
           "shortId": "p:Lddrk;"
         },
         "newName": "defaultDataSimSubInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djpg",
+          "shortId": "b:I"
+        },
+        "newName": "numOfSimSlots"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djpg",
+          "shortId": "j:Landroid/util/SparseArray;"
+        },
+        "newName": "sims"
       },
       {
         "nodeRef": {
@@ -7325,6 +8225,38 @@
           "shortId": "b:Ldjud;"
         },
         "newName": "ua"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djuy",
+          "shortId": "a:Landroid/telephony/SubscriptionManager;"
+        },
+        "newName": "subMgr"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djuy",
+          "shortId": "b:Ldjuy;"
+        },
+        "newName": "singleton"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djvb",
+          "shortId": "a:Landroid/telephony/TelephonyManager;"
+        },
+        "newName": "telephonyMgr"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djvb",
+          "shortId": "b:Ldjvb;"
+        },
+        "newName": "singleton"
       },
       {
         "nodeRef": {
@@ -8721,6 +9653,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "eook",
+          "shortId": "c:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "eoym",
           "shortId": "x:I"
         },
@@ -8781,6 +9721,14 @@
           "shortId": "a:Landroid/content/Context;"
         },
         "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "esnb",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
       },
       {
         "nodeRef": {
@@ -9162,9 +10110,25 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "exad",
+          "shortId": "a:Lexad;"
+        },
+        "newName": "defaultValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "exad",
           "shortId": "b:Ljava/lang/String;"
         },
         "newName": "upiPolicyId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "exad",
+          "shortId": "d:I"
+        },
+        "newName": "flags"
       },
       {
         "nodeRef": {
@@ -9233,10 +10197,82 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ezob",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ezuk",
           "shortId": "l:I"
         },
         "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ezwl",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ezwl",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "acsUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "faab",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "faak",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "faap",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fdaz",
+          "shortId": "b:Lezem;"
+        },
+        "newName": "clientCapabilitiesExtension"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fdbc",
+          "shortId": "c:Lezed;"
+        },
+        "newName": "clientFeatureFlags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fdig",
+          "shortId": "b:Lezed;"
+        },
+        "newName": "clientCapabilities"
       },
       {
         "nodeRef": {
@@ -9673,6 +10709,110 @@
           "shortId": "b()Ljava/lang/String;"
         },
         "newName": "getFlagName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "a()Lj$/util/Optional;"
+        },
+        "newName": "domain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "b()Lj$/util/Optional;"
+        },
+        "newName": "opaque"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "c()Lj$/util/Optional;"
+        },
+        "newName": "qop"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "d()Lj$/util/Optional;"
+        },
+        "newName": "stale"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "nonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "f()Ljava/lang/String;"
+        },
+        "newName": "realm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "g()Ljava/lang/String;"
+        },
+        "newName": "schema"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "opaque"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "stale"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupf",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "qop"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "aupl",
+          "shortId": "a()Lelot;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65557
+        },
+        "newName": "qop"
       },
       {
         "nodeRef": {
@@ -10261,6 +11401,18 @@
           "shortId": "a()Lelot;"
         },
         "newName": "getIidtoken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "chjr",
+          "shortId": "apply(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131074
+        },
+        "newName": "state"
       },
       {
         "nodeRef": {
@@ -11605,14 +12757,6 @@
       {
         "nodeRef": {
           "refType": "METHOD",
-          "declClass": "ddbv",
-          "shortId": "a()Ljava/lang/Object;"
-        },
-        "newName": "get"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
           "declClass": "ddqv",
           "shortId": "a()Ljava/lang/Object;"
         },
@@ -11857,6 +13001,58 @@
           "shortId": "get()Ljava/lang/Object;"
         },
         "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfou",
+          "shortId": "a(Landroid/content/Context;)I"
+        },
+        "newName": "pkgVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfpm",
+          "shortId": "b(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "newName": "iidImplPkg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfpn",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "appVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfpn",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "appVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfpn",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "putStrings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dfpn",
+          "shortId": "j(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "timestampKey"
       },
       {
         "nodeRef": {
@@ -12709,6 +13905,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "dhrz",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "getUAForDownload"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhrz",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "getUA"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dhuk",
           "shortId": "b()Ljava/lang/String;"
         },
@@ -12850,6 +14062,22 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dhyl",
+          "shortId": "D()Z"
+        },
+        "newName": "enable_single_registration_tmo_features"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhyl",
+          "shortId": "E()Z"
+        },
+        "newName": "enable_single_registration_tmo_gba_download_feature"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhyl",
           "shortId": "H()Z"
         },
         "newName": "is_jibe_sip_enabled"
@@ -12934,6 +14162,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dhzn",
+          "shortId": "B()Ljava/lang/String;"
+        },
+        "newName": "upiPolicyId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhzn",
           "shortId": "C()V"
         },
         "newName": "init"
@@ -12966,9 +14202,25 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dhzn",
+          "shortId": "K()Z"
+        },
+        "newName": "enable_rcs_consent_via_asterism_api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhzn",
           "shortId": "L()Z"
         },
         "newName": "enable_rcs_default_on_oob_flow"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhzn",
+          "shortId": "R()Z"
+        },
+        "newName": "enforce_rcs_consent_via_asterism_api"
       },
       {
         "nodeRef": {
@@ -13037,6 +14289,62 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "diox",
+          "shortId": "e(Landroid/os/Message;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786449
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;ILeenn;Ldike;Leeng;Ldijw;Ldipx;Ldikg;Ldith;ILjava/lang/String;Ldjhv;Ldiiw;Ldimm;Lcuns;Ldjsv;Ldhne;Ldjor;Ljava/util/concurrent/ScheduledExecutorService;Leete;Ldjtz;Ldimk;Landroid/os/PowerManager;Ldjuy;Ldjux;Ldjvb;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "registeringState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;ILeenn;Ldike;Leeng;Ldijw;Ldipx;Ldikg;Ldith;ILjava/lang/String;Ldjhv;Ldiiw;Ldimm;Lcuns;Ldjsv;Ldhne;Ldjor;Ljava/util/concurrent/ScheduledExecutorService;Leete;Ldjtz;Ldimk;Landroid/os/PowerManager;Ldjuy;Ldjux;Ldjvb;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "subscribingState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;ILeenn;Ldike;Leeng;Ldijw;Ldipx;Ldikg;Ldith;ILjava/lang/String;Ldjhv;Ldiiw;Ldimm;Lcuns;Ldjsv;Ldhne;Ldjor;Ljava/util/concurrent/ScheduledExecutorService;Leete;Ldjtz;Ldimk;Landroid/os/PowerManager;Ldjuy;Ldjux;Ldjvb;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "reconfigurationRequiredState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "C()V"
+        },
+        "newName": "clearPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dipl",
           "shortId": "E()V"
         },
@@ -13049,6 +14357,26 @@
           "shortId": "F()V"
         },
         "newName": "dereg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "G()V"
+        },
+        "newName": "register"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "G()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 10
+        },
+        "newName": "sipReg"
       },
       {
         "nodeRef": {
@@ -13078,9 +14406,9 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dipl",
-          "shortId": "G()V"
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
         },
-        "newName": "register"
+        "newName": "build"
       },
       {
         "nodeRef": {
@@ -13088,7 +14416,23 @@
           "declClass": "dipl",
           "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
         },
-        "newName": "`createSipRegisterMessage`"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 6
+        },
+        "newName": "registerMsg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393223
+        },
+        "newName": "realm"
       },
       {
         "nodeRef": {
@@ -13110,9 +14454,77 @@
         },
         "codeRef": {
           "attachType": "VAR",
+          "index": 458766
+        },
+        "newName": "qop"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
           "index": 524295
         },
         "newName": "password"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1376256
+        },
+        "newName": "expiry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1441792
+        },
+        "newName": "q"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "s(Leenm;Leenf;IFZZLjava/lang/String;)Leesy;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1638400
+        },
+        "newName": "selfServiceMsgId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "x(Ldhke;)V"
+        },
+        "newName": "notifyFailed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "x(Ldhke;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "reason"
       },
       {
         "nodeRef": {
@@ -13369,6 +14781,170 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ditp",
+          "shortId": "apply(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ditp",
+          "shortId": "apply(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "requestCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ditp",
+          "shortId": "apply(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "tosConsent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diua",
+          "shortId": "l()Ljava/lang/String;"
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diub",
+          "shortId": "a()Lcmre;"
+        },
+        "newName": "googleToSConsentState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diub",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diue",
+          "shortId": "b()V"
+        },
+        "newName": "cleanUpGoogleTosConsentCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diue",
+          "shortId": "c(Lcmyn;)V"
+        },
+        "newName": "setGoogleTosConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "a()Lj$/util/Optional;"
+        },
+        "newName": "provisioningSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "cookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "c()Ljava/lang/String;"
+        },
+        "newName": "gmsCoreIidToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "d()Ljava/lang/String;"
+        },
+        "newName": "imei"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "f()Ljava/lang/String;"
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "g()Ljava/lang/String;"
+        },
+        "newName": "msisdnToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diuh",
+          "shortId": "h()Ljava/lang/String;"
+        },
+        "newName": "salt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dium",
+          "shortId": "i()Ldiul;"
+        },
+        "newName": "init"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diun",
+          "shortId": "a(Ldium;)Ljava/lang/String;"
+        },
+        "newName": "getDroidGuardValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diun",
+          "shortId": "b(Ldium;Lcnnb;)V"
+        },
+        "newName": "putDroidGuardHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "diut",
           "shortId": "\u003cinit\u003e(Ljava/lang/String;Lj$/util/Optional;)V"
         },
@@ -13450,6 +15026,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "divc",
+          "shortId": "a(Ljava/net/HttpURLConnection;Ljava/io/InputStream;Ljava/lang/String;)V"
+        },
+        "newName": "cleanup"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "divc",
           "shortId": "c(Landroid/content/Context;Ldixu;Landroid/net/Network;Ljava/lang/String;ILcnnc;Ldiqr;)Lj$/util/Optional;"
         },
         "newName": "decorateConnection"
@@ -13505,10 +15089,30 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "divc",
+          "shortId": "d(Ljava/lang/String;Ljava/net/HttpURLConnection;)V"
+        },
+        "newName": "parseCookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "divw",
           "shortId": "f()Lfach;"
         },
         "newName": "getState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "divz",
+          "shortId": "j(Landroid/os/Message;Ldisq;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262151
+        },
+        "newName": "cat"
       },
       {
         "nodeRef": {
@@ -13597,10 +15201,118 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "diwj",
+          "shortId": "r(Ljava/net/HttpURLConnection;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 9
+        },
+        "newName": "nonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwj",
+          "shortId": "r(Ljava/net/HttpURLConnection;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196613
+        },
+        "newName": "simId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwj",
+          "shortId": "s(Ldixb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "req"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "diwk",
           "shortId": "a()Ljava/lang/String;"
         },
         "newName": "stateName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwk",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "stateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwk",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "simId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwl",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "stateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwl",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393224
+        },
+        "newName": "sessionKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwl",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "simId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwl",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "imsi"
       },
       {
         "nodeRef": {
@@ -13661,6 +15373,30 @@
           "index": 1245184
         },
         "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwt",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "sm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diwt",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "simId"
       },
       {
         "nodeRef": {
@@ -13941,6 +15677,42 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "dixg",
+          "shortId": "s(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65542
+        },
+        "newName": "jibeAcsCookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixg",
+          "shortId": "s(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393220
+        },
+        "newName": "provisionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixg",
+          "shortId": "s(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851988
+        },
+        "newName": "jibeAcsCookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dixp",
           "shortId": "b()V"
         },
@@ -14118,9 +15890,29 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dixu",
+          "shortId": "D(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "acsUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
           "shortId": "Q(Ldixb;)V"
         },
         "newName": "setInitialState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "Y()Z"
+        },
+        "newName": "showGoogleTos"
       },
       {
         "nodeRef": {
@@ -14162,9 +15954,81 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "dixu",
+          "shortId": "i(Lepie;Ljava/lang/String;Lcnnb;)Lelot;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "jibeAcsCookie"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
           "shortId": "p()Ljava/lang/String;"
         },
         "newName": "stateName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "r()Ljava/lang/String;"
+        },
+        "newName": "upiPolicyId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "s()Ljava/lang/String;"
+        },
+        "newName": "acsUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "t()Ljava/util/List;"
+        },
+        "newName": "cookies"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "u(Ldixb;Lcnnb;Lj$/util/Optional;)V"
+        },
+        "newName": "setGmsCoreIIDTokenForConsentReasons"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "v(Lcnnb;)V"
+        },
+        "newName": "addTachyonIDKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "v(Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 14
+        },
+        "newName": "maybeTachyonIdKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dixu",
+          "shortId": "w()V"
+        },
+        "newName": "setGoogleTosConf"
       },
       {
         "nodeRef": {
@@ -14201,6 +16065,98 @@
           "index": 589828
         },
         "newName": "gid1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "newName": "provisionInstanceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 19
+        },
+        "newName": "result"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262157
+        },
+        "newName": "regId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "iidToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "simId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "acsUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1310720
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "diya",
+          "shortId": "d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcnnb;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1376256
+        },
+        "newName": "provReq"
       },
       {
         "nodeRef": {
@@ -14578,9 +16534,41 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djce",
+          "shortId": "g()Lj$/util/Optional;"
+        },
+        "newName": "gmscoreIidToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
+          "shortId": "p(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getProvAttestNonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
           "shortId": "t(Ljava/lang/String;)V"
         },
         "newName": "putGMSCoreIIDToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
+          "shortId": "w(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "putProvAttestNonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
+          "shortId": "x(Ljava/lang/String;Lcmut;)V"
+        },
+        "newName": "putOtpSms"
       },
       {
         "nodeRef": {
@@ -15082,6 +17070,22 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djds",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "getACSUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djds",
+          "shortId": "f(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getACSUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djds",
           "shortId": "g(Lj$/util/Optional;)Z"
         },
         "codeRef": {
@@ -15182,6 +17186,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djds",
+          "shortId": "n(Lj$/util/Optional;)Ljava/lang/String;"
+        },
+        "newName": "getConfigServerUrlForOptSimId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djds",
           "shortId": "o(Lj$/util/Optional;)Z"
         },
         "newName": "hasAcsUrl"
@@ -15225,6 +17237,14 @@
           "shortId": "q()Z"
         },
         "newName": "hasOverriddenACSUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djdw",
+          "shortId": "a()Lcnnb;"
+        },
+        "newName": "makeUnknownProvisioningRequest"
       },
       {
         "nodeRef": {
@@ -15361,6 +17381,30 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "djhm",
+          "shortId": "d(Leepy;Ldjhg;Z)V"
+        },
+        "newName": "addContactFlags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djoy",
+          "shortId": "a()I"
+        },
+        "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djoy",
+          "shortId": "c()Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "djoy",
           "shortId": "d()Ljava/lang/String;"
         },
@@ -15369,10 +17413,86 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "djoy",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "simOperator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djoz",
+          "shortId": "j()Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "\u003cinit\u003e(Lfghl;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "prefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "a()I"
+        },
+        "newName": "slotIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "djpa",
           "shortId": "b()I"
         },
         "newName": "getSubId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "c()Lcppv;"
+        },
+        "newName": "defaultDataSim"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "d()Lcppv;"
+        },
+        "newName": "defaultSimSubInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "i()Ljava/lang/String;"
+        },
+        "newName": "gid1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "j()Ljava/lang/String;"
+        },
+        "newName": "imsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "k()Ljava/lang/String;"
+        },
+        "newName": "rawMsisdn"
       },
       {
         "nodeRef": {
@@ -15388,7 +17508,79 @@
           "declClass": "djpa",
           "shortId": "m()Ljava/lang/String;"
         },
-        "newName": "simId"
+        "newName": "simOperator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpa",
+          "shortId": "t()Z"
+        },
+        "newName": "isFiDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "A(Landroid/content/Context;)I"
+        },
+        "newName": "getActiveSubscriptionInfoCountMax"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "I(Landroid/content/Context;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "I(Landroid/content/Context;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524289
+        },
+        "newName": "msisdn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "J(Landroid/content/Context;I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "slotNum"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "J(Landroid/content/Context;I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "subId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djpg",
+          "shortId": "k(Ljava/io/PrintWriter;)V"
+        },
+        "newName": "dump"
       },
       {
         "nodeRef": {
@@ -15566,9 +17758,33 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djri",
+          "shortId": "c(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "rcs_user_id_$arg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djri",
+          "shortId": "e(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "set_msisdn_for_iccid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djri",
           "shortId": "f(Ljava/lang/String;I)V"
         },
         "newName": "writeUpiAttemptCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djri",
+          "shortId": "g(Ljava/lang/String;Z)Z"
+        },
+        "newName": "getBuglePref"
       },
       {
         "nodeRef": {
@@ -15586,9 +17802,17 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djri",
+          "shortId": "i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getBuglePref"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djri",
           "shortId": "j(I)V"
         },
-        "newName": "rcs_tos_state"
+        "newName": "set_rcs_tos_state"
       },
       {
         "nodeRef": {
@@ -15813,6 +18037,30 @@
           "shortId": "a()Landroid/net/Network;"
         },
         "newName": "getMobileNetwork"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djsd",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "gbaUA"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djsd",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "nonGbaUA"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djss",
+          "shortId": "d(Ljava/lang/String;)Z"
+        },
+        "newName": "isMissing"
       },
       {
         "nodeRef": {
@@ -16086,6 +18334,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djtz",
+          "shortId": "a(Leenm;Z[Ljava/lang/String;)Leepy;"
+        },
+        "newName": "buildContact"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djtz",
           "shortId": "c(Leenm;Leenf;Ljava/lang/String;[BLjava/lang/String;Lj$/util/Optional;)Leesy;"
         },
         "codeRef": {
@@ -16169,6 +18425,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "djub",
+          "shortId": "g()Leeqk;"
+        },
+        "newName": "maxForwards70"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "djud",
           "shortId": "a()Ljava/lang/String;"
         },
@@ -16197,6 +18461,14 @@
           "shortId": "h(Landroid/content/Context;)Z"
         },
         "newName": "isInMessagingApp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djuy",
+          "shortId": "b(Landroid/content/Context;)Ldjuy;"
+        },
+        "newName": "get"
       },
       {
         "nodeRef": {
@@ -17013,6 +19285,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "eene",
+          "shortId": "a(Leeoh;Ljava/lang/String;Leepv;Leepu;Leeqh;Leeqz;Ljava/util/List;Leeqk;)Leerk;"
+        },
+        "newName": "buildMsg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "eenf",
           "shortId": "g()Leesv;"
         },
@@ -17229,6 +19509,38 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "eerc",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "branch"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "eerc",
+          "shortId": "f()V"
+        },
+        "newName": "keep"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "eerc",
+          "shortId": "g()V"
+        },
+        "newName": "rport"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "eerc",
+          "shortId": "o()V"
+        },
+        "newName": "serverkeep"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "eerj",
           "shortId": "a()Ljava/lang/String;"
         },
@@ -17389,6 +19701,14 @@
           "shortId": "g(Ljava/lang/String;Ljava/lang/String;)Leeqi;"
         },
         "newName": "createHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "eess",
+          "shortId": "h(I)Leeqk;"
+        },
+        "newName": "buildMaxForwards"
       },
       {
         "nodeRef": {
@@ -19453,6 +21773,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "fghl",
+          "shortId": "a()Ljava/lang/Object;"
+        },
+        "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "fghv",
           "shortId": "a(Lfgox;)Lfght;"
         },
@@ -19665,6 +21993,22 @@
           "shortId": "accept(Ljava/lang/Object;Ljava/lang/Object;)V"
         },
         "newName": "accept"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "java.util.function.Predicate",
+          "shortId": "negate()Ljava/util/function/Predicate;"
+        },
+        "newName": "negate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "java.util.function.Predicate",
+          "shortId": "test(Ljava/lang/Object;)Z"
+        },
+        "newName": "test"
       }
     ]
   },
@@ -22523,36 +24867,36 @@
   "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk-4b05236ba83126d8314847f4481aa15e",
   "enableLiveReload": false,
   "searchHistory": [
-    "RequestWithImsiState",
-    "falling back to non-UPI is removed",
-    "Got mobile network",
-    "request over Mobile network",
-    "MSG_SEND_CONFIG_REQUEST_OVER_MOBILE_NETWORK",
-    "Sent message ",
-    "RequestWithHeState",
-    "non-retryable verifyPhoneNumber failure",
-    "finishProvisioningAttempt",
-    "MsisdnDiscoveryService",
-    "Checking isConfigServerUrlAvailable without simId because amberFullLaunch is false",
-    "updateRcsAvailabilityForDefaultCallSim",
-    "Receive onRcsAvailabilityUpdate",
-    "RcsSettingsFragmentV2Peer",
-    "rcs_not_available_learn_more_title_v2",
-    "RCS chats aren\\\u0027t available for this device",
-    "verifymsisdn",
-    "siloed",
-    "isupi",
-    "Hermetic",
-    " 107\\)",
-    "hermetic",
-    "amber",
-    "RCS Configuration storage in Bugle is disabled by p/h flag",
-    "DISABLED_VIA_GSERVICES",
-    "available for this device",
-    "UNSUPPORTED_BY_CARRIER",
-    "RCS_UNSUPPORTED_BY_CARRIER",
-    "RCS_AVAILABILITY_DATA_SOURCE_KEY",
-    "addCapability"
+    "call-id",
+    "SIP_REGISTRATION_REGISTERING_STATE",
+    "sip.*register",
+    "RCS_MLS_PROVISIONING_START_FROM_OTP",
+    "\"otp\"",
+    "1704)",
+    "wwwauth",
+    "opaque",
+    "header.*enrichment",
+    "RCS_PROVISIONING_REQUEST_WITH_IMSI_STATE",
+    "RCS_PROVISIONING_REQUEST_WITHOUT_AUTH_STATE",
+    "rcs_msisdn_token",
+    "goog-mls",
+    "[^@]deprecated",
+    "com.google.android.ims.JibeService",
+    "com.google.android.ims",
+    "3gpp-gba",
+    "md5",
+    "sipreg",
+    "upi-mo-",
+    "\\bios\\b",
+    "u200A",
+    "Reacted",
+    "rcs-pe-version",
+    "gmscore_instance_id_token",
+    "supported_provisioning_types",
+    "ts43",
+    "client_authenticity",
+    "constellation",
+    "dhmm"
   ],
   "searchResourcesFilter": "*",
   "searchResourcesSizeLimit": 0,
