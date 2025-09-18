@@ -3,7 +3,9 @@
   "files": [
     "Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk"
   ],
-  "treeExpansionsV2": [],
+  "treeExpansionsV2": [
+    "p:"
+  ],
   "codeData": {
     "comments": [
       {
@@ -3247,7 +3249,7 @@
           "refType": "CLASS",
           "declClass": "ewzd"
         },
-        "newName": "UpiSomethign"
+        "newName": "UpiSomething"
       },
       {
         "nodeRef": {
@@ -8333,6 +8335,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "dkmu",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "dknj",
           "shortId": "a:Landroid/content/Context;"
         },
@@ -9781,6 +9791,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ewzd",
+          "shortId": "a:Lewzd;"
+        },
+        "newName": "defaultValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ewzg",
           "shortId": "h:I"
         },
@@ -9926,6 +9944,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "exaa",
+          "shortId": "U:I"
+        },
+        "newName": "flags2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "exaa",
           "shortId": "a:Lezee;"
         },
         "newName": "provisioning_rules"
@@ -9952,7 +9978,7 @@
           "declClass": "exaa",
           "shortId": "d:I"
         },
-        "newName": "bitFlags"
+        "newName": "flags"
       },
       {
         "nodeRef": {
@@ -11265,6 +11291,18 @@
           "index": 65539
         },
         "newName": "rcs_enabled_state"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cgov",
+          "shortId": "a(Ljava/lang/String;)Lenkn;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65581
+        },
+        "newName": "upiEnabledState"
       },
       {
         "nodeRef": {
@@ -22050,7 +22088,7 @@
       "caret": 592,
       "view": {
         "x": 0,
-        "y": 68
+        "y": 8
       },
       "active": false,
       "pinned": false,
@@ -22093,21 +22131,6 @@
       "tabPath": "cnmh",
       "subPath": "java",
       "caret": 194,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "cntv",
-      "subPath": "java",
-      "caret": 305,
       "view": {
         "x": 0,
         "y": 0
@@ -22170,7 +22193,7 @@
       "caret": 24090,
       "view": {
         "x": 0,
-        "y": 7387
+        "y": 7352
       },
       "active": false,
       "pinned": false,
@@ -22200,7 +22223,7 @@
       "caret": 591,
       "view": {
         "x": 0,
-        "y": 7208
+        "y": 272
       },
       "active": false,
       "pinned": false,
@@ -22290,7 +22313,7 @@
       "caret": 297,
       "view": {
         "x": 0,
-        "y": 352
+        "y": 152
       },
       "active": false,
       "pinned": false,
@@ -22500,7 +22523,7 @@
       "caret": 126837,
       "view": {
         "x": 0,
-        "y": 31137
+        "y": 33426
       },
       "active": false,
       "pinned": false,
@@ -22770,7 +22793,7 @@
       "caret": 3477,
       "view": {
         "x": 0,
-        "y": 876
+        "y": 848
       },
       "active": false,
       "pinned": false,
@@ -22857,7 +22880,7 @@
       "type": "class",
       "tabPath": "divm",
       "subPath": "java",
-      "caret": 319,
+      "caret": 0,
       "view": {
         "x": 0,
         "y": 0
@@ -22875,7 +22898,7 @@
       "caret": 67586,
       "view": {
         "x": 0,
-        "y": 21413
+        "y": 20567
       },
       "active": false,
       "pinned": false,
@@ -22995,7 +23018,7 @@
       "caret": 20329,
       "view": {
         "x": 0,
-        "y": 7691
+        "y": 7622
       },
       "active": false,
       "pinned": false,
@@ -23205,7 +23228,7 @@
       "caret": 8840,
       "view": {
         "x": 0,
-        "y": 1377
+        "y": 1223
       },
       "active": false,
       "pinned": false,
@@ -23370,7 +23393,7 @@
       "caret": 957,
       "view": {
         "x": 0,
-        "y": 74
+        "y": 0
       },
       "active": false,
       "pinned": false,
@@ -23400,7 +23423,7 @@
       "caret": 6016,
       "view": {
         "x": 0,
-        "y": 986
+        "y": 958
       },
       "active": false,
       "pinned": false,
@@ -23445,7 +23468,7 @@
       "caret": 12353,
       "view": {
         "x": 0,
-        "y": 3197
+        "y": 3167
       },
       "active": false,
       "pinned": false,
@@ -23655,7 +23678,7 @@
       "caret": 121,
       "view": {
         "x": 0,
-        "y": 98
+        "y": 77
       },
       "active": false,
       "pinned": false,
@@ -23700,7 +23723,7 @@
       "caret": 96,
       "view": {
         "x": 0,
-        "y": 323
+        "y": 62
       },
       "active": false,
       "pinned": false,
@@ -23715,7 +23738,7 @@
       "caret": 9209,
       "view": {
         "x": 0,
-        "y": 0
+        "y": 2421
       },
       "active": false,
       "pinned": false,
@@ -23850,7 +23873,7 @@
       "caret": 191,
       "view": {
         "x": 0,
-        "y": 1088
+        "y": 92
       },
       "active": false,
       "pinned": false,
@@ -23880,7 +23903,7 @@
       "caret": 16919,
       "view": {
         "x": 0,
-        "y": 4595
+        "y": 4547
       },
       "active": false,
       "pinned": false,
@@ -23925,7 +23948,7 @@
       "caret": 663,
       "view": {
         "x": 0,
-        "y": 257
+        "y": 242
       },
       "active": false,
       "pinned": false,
@@ -24075,7 +24098,7 @@
       "caret": 6181,
       "view": {
         "x": 0,
-        "y": 0
+        "y": 2406
       },
       "active": false,
       "pinned": false,
@@ -24105,7 +24128,7 @@
       "caret": 7710,
       "view": {
         "x": 0,
-        "y": 0
+        "y": 1796
       },
       "active": false,
       "pinned": false,
@@ -24300,7 +24323,7 @@
       "caret": 260,
       "view": {
         "x": 0,
-        "y": 215
+        "y": 137
       },
       "active": false,
       "pinned": false,
@@ -24360,7 +24383,7 @@
       "caret": 670,
       "view": {
         "x": 0,
-        "y": 389
+        "y": 377
       },
       "active": false,
       "pinned": false,
@@ -24450,7 +24473,7 @@
       "caret": 89785,
       "view": {
         "x": 0,
-        "y": 22409
+        "y": 72921
       },
       "active": false,
       "pinned": false,
@@ -24480,7 +24503,7 @@
       "caret": 551,
       "view": {
         "x": 0,
-        "y": 522
+        "y": 358
       },
       "active": false,
       "pinned": false,
@@ -24510,7 +24533,7 @@
       "caret": 1909,
       "view": {
         "x": 0,
-        "y": 222
+        "y": 58
       },
       "active": false,
       "pinned": false,
@@ -24630,7 +24653,7 @@
       "caret": 1380,
       "view": {
         "x": 0,
-        "y": 6772
+        "y": 557
       },
       "active": false,
       "pinned": false,
@@ -24705,7 +24728,7 @@
       "caret": 540,
       "view": {
         "x": 0,
-        "y": 29
+        "y": 0
       },
       "active": false,
       "pinned": false,
@@ -24737,7 +24760,7 @@
         "x": 0,
         "y": 0
       },
-      "active": true,
+      "active": false,
       "pinned": false,
       "bookmarked": false,
       "hidden": false,
@@ -24750,7 +24773,7 @@
       "caret": 7083,
       "view": {
         "x": 0,
-        "y": 2777
+        "y": 2693
       },
       "active": false,
       "pinned": false,
@@ -24820,44 +24843,14 @@
     },
     {
       "type": "class",
-      "tabPath": "apko",
+      "tabPath": "feuj",
       "subPath": "java",
-      "caret": 0,
+      "caret": 1083,
       "view": {
         "x": 0,
         "y": 0
       },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "apki",
-      "subPath": "java",
-      "caret": 0,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "apkh",
-      "subPath": "java",
-      "caret": 657,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
+      "active": true,
       "pinned": false,
       "bookmarked": false,
       "hidden": false,
@@ -24867,6 +24860,10 @@
   "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk-4b05236ba83126d8314847f4481aa15e",
   "enableLiveReload": false,
   "searchHistory": [
+    "AIzaSyAjKazdIYitdprpqlEAYHkgTae00yoo8rQ",
+    "provisioning_rcs_profile",
+    "mobileconfiguration",
+    "UPI_ENABLED_STATE_ENABLED_WITHOUT_ACS_FALLBACK",
     "call-id",
     "SIP_REGISTRATION_REGISTERING_STATE",
     "sip.*register",
@@ -24892,11 +24889,7 @@
     "Reacted",
     "rcs-pe-version",
     "gmscore_instance_id_token",
-    "supported_provisioning_types",
-    "ts43",
-    "client_authenticity",
-    "constellation",
-    "dhmm"
+    "supported_provisioning_types"
   ],
   "searchResourcesFilter": "*",
   "searchResourcesSizeLimit": 0,
