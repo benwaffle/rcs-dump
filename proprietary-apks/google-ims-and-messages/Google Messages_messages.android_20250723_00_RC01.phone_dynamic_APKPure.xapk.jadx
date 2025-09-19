@@ -713,6 +713,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "cqll"
+        },
+        "newName": "BugleTachygram"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "crua"
         },
         "newName": "defpackage.PersistThumbnailHandler"
@@ -3464,6 +3471,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "faho"
+        },
+        "newName": "RcsTransportType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "fakr"
         },
         "newName": "MobileConfigurationEvent"
@@ -4107,6 +4121,22 @@
           "shortId": "c:Lexad;"
         },
         "newName": "upi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cgtd",
+          "shortId": "d:Lcflh;"
+        },
+        "newName": "tachyon_phone_registration"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "cgtd",
+          "shortId": "e:Lcflh;"
+        },
+        "newName": "jibe_pcscf_regex"
       },
       {
         "nodeRef": {
@@ -14402,14 +14432,6 @@
           "declClass": "dipl",
           "shortId": "G()V"
         },
-        "newName": "register"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "dipl",
-          "shortId": "G()V"
-        },
         "codeRef": {
           "attachType": "VAR",
           "index": 10
@@ -14439,6 +14461,14 @@
           "index": 917504
         },
         "newName": "publicIdentity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "G()V"
+        },
+        "newName": "register"
       },
       {
         "nodeRef": {
@@ -24860,6 +24890,17 @@
   "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk-4b05236ba83126d8314847f4481aa15e",
   "enableLiveReload": false,
   "searchHistory": [
+    "white_listed_packages",
+    "overrides.txt",
+    "carrier_services",
+    "content://com.google.android.gms.p",
+    "tachyon_phone_reg",
+    "sensitive_log",
+    "Tachygram setup",
+    "sip.instance",
+    "sip",
+    "DUAL_REG",
+    "TACHYGRAM",
     "AIzaSyAjKazdIYitdprpqlEAYHkgTae00yoo8rQ",
     "provisioning_rcs_profile",
     "mobileconfiguration",
@@ -24878,18 +24919,7 @@
     "rcs_msisdn_token",
     "goog-mls",
     "[^@]deprecated",
-    "com.google.android.ims.JibeService",
-    "com.google.android.ims",
-    "3gpp-gba",
-    "md5",
-    "sipreg",
-    "upi-mo-",
-    "\\bios\\b",
-    "u200A",
-    "Reacted",
-    "rcs-pe-version",
-    "gmscore_instance_id_token",
-    "supported_provisioning_types"
+    "com.google.android.ims.JibeService"
   ],
   "searchResourcesFilter": "*",
   "searchResourcesSizeLimit": 0,
