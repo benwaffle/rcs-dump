@@ -12749,6 +12749,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ctej",
+          "shortId": "b(Ljava/lang/CharSequence;)Ljava/lang/String;"
+        },
+        "newName": "redactPii"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ctej",
+          "shortId": "e(Ljava/lang/CharSequence;)Ljava/lang/String;"
+        },
+        "newName": "showStrLnegth"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ctff",
           "shortId": "F(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V"
         },
@@ -25198,11 +25214,16 @@
   "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk-4b05236ba83126d8314847f4481aa15e",
   "enableLiveReload": false,
   "searchHistory": [
+    "Enabled chat transport for SIM",
+    "RcsEngineLifecycleServiceV2",
+    "Service is deprecated skipping connection attempt",
+    "cusm",
+    "mcj",
+    "cusl",
     "connecting to %d Rcs Services",
     "tachygram",
     "tachyon.*pa.googleapis",
     "Tachyon",
-    "Enabled chat transport for SIM",
     "ditto",
     "Advertising Tachygram capability",
     "Actively accessing legacy Rcs services",
@@ -25222,12 +25243,7 @@
     "DUAL_REG",
     "TACHYGRAM",
     "AIzaSyAjKazdIYitdprpqlEAYHkgTae00yoo8rQ",
-    "provisioning_rcs_profile",
-    "mobileconfiguration",
-    "UPI_ENABLED_STATE_ENABLED_WITHOUT_ACS_FALLBACK",
-    "call-id",
-    "SIP_REGISTRATION_REGISTERING_STATE",
-    "sip.*register"
+    "provisioning_rcs_profile"
   ],
   "searchResourcesFilter": "*",
   "searchResourcesSizeLimit": 0,

@@ -4,6 +4,7 @@
 
 ```
 setprop log.tag.BugleRcsEngine VERBOSE
+setprop log.tag.Bugle VERBOSE
 ```
 
 Enable PII logging with
