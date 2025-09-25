@@ -64,6 +64,15 @@
       },
       {
         "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "p:I"
+        },
+        "comment": "2-true, 1-false",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
           "refType": "METHOD",
           "declClass": "diwj",
           "shortId": "r(Ljava/net/HttpURLConnection;)V"
@@ -447,6 +456,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "cgyf"
+        },
+        "newName": "RegistrationProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "chdw"
         },
         "newName": "InstantMessagingUrls"
@@ -618,6 +634,20 @@
           "declClass": "cnky"
         },
         "newName": "ProvisioningEngineAdapter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "cnli"
+        },
+        "newName": "com.google.android.apps.messaging.shared.rcsprovisioning.IRcsProvisioningWorkManagerScheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "cnlw"
+        },
+        "newName": "com.google.android.apps.messaging.shared.rcsprovisioning.RcsProvisioningWorkManagerScheduler"
       },
       {
         "nodeRef": {
@@ -1294,6 +1324,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "dhjm"
+        },
+        "newName": "SipRegUtil"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dhll"
         },
         "newName": "LogAllFlagsJob"
@@ -1430,6 +1467,13 @@
           "declClass": "dhxz"
         },
         "newName": "cslib_phenotype__flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dhya"
+        },
+        "newName": "CslibFlags"
       },
       {
         "nodeRef": {
@@ -1682,6 +1726,13 @@
           "declClass": "dipl"
         },
         "newName": "RegistrationStateMachine"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dipx"
+        },
+        "newName": "KeepAliveManager"
       },
       {
         "nodeRef": {
@@ -2050,6 +2101,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "diys"
+        },
+        "newName": "MsgSender"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dizb"
         },
         "newName": "RcsSMState"
@@ -2130,6 +2188,13 @@
           "declClass": "djdw"
         },
         "newName": "ProvisioningQueryParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djer"
+        },
+        "newName": "RcsEngineHandler"
       },
       {
         "nodeRef": {
@@ -2550,6 +2615,20 @@
           "declClass": "eenf"
         },
         "newName": "SipDialogPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eenm"
+        },
+        "newName": "ASipStack"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eenr"
+        },
+        "newName": "StubSipStack"
       },
       {
         "nodeRef": {
@@ -2988,6 +3067,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "elow"
+        },
+        "newName": "Futures"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "emyj"
         },
         "newName": "GuavaOptionalNone"
@@ -3159,6 +3245,13 @@
           "declClass": "enzv"
         },
         "newName": "Assertionss"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "eovf"
+        },
+        "newName": "RcsAvailabilityInfo"
       },
       {
         "nodeRef": {
@@ -3814,6 +3907,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "fiap"
+        },
+        "newName": "IdKind"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "fiwq"
         },
         "newName": "Constants"
@@ -4249,6 +4349,14 @@
           "shortId": "a:Lctds;"
         },
         "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "chtk",
+          "shortId": "e:Lenbs;"
+        },
+        "newName": "jibePcscfRegex"
       },
       {
         "nodeRef": {
@@ -4721,6 +4829,14 @@
           "shortId": "b:Lcom/google/common/flogger/GoogleLogger;"
         },
         "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.ims.rcs.engine.impl.RcsEngineImpl",
+          "shortId": "af:Landroid/os/Handler;"
+        },
+        "newName": "rcsEngineHandler"
       },
       {
         "nodeRef": {
@@ -6310,6 +6426,14 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dhyk",
+          "shortId": "J:Ldhyf;"
+        },
+        "newName": "use_sim_id_from_bugle_for_rcs_config"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhyk",
           "shortId": "O:Ldhyf;"
         },
         "newName": "enable_logging_dns_events"
@@ -6854,6 +6978,30 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dipl",
+          "shortId": "E:I"
+        },
+        "newName": "minExpires"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "F:I"
+        },
+        "newName": "expirePeriod"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "J:I"
+        },
+        "newName": "configVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
           "shortId": "ai:Ldinv;"
         },
         "newName": "reconfigurationRequiredState"
@@ -6862,9 +7010,49 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "dipl",
+          "shortId": "l:Z"
+        },
+        "newName": "useNetworkCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "m:Ldjsv;"
+        },
+        "newName": "tag"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
           "shortId": "v:Leenf;"
         },
         "newName": "sipDialogPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipl",
+          "shortId": "y:Ljava/lang/String;"
+        },
+        "newName": "publicIdentity"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipx",
+          "shortId": "d:I"
+        },
+        "newName": "mKeepAlivePeriod"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dipx",
+          "shortId": "f:J"
+        },
+        "newName": "mLastKeepAlive"
       },
       {
         "nodeRef": {
@@ -7241,6 +7429,14 @@
           "shortId": "q:I"
         },
         "newName": "pcscfPort"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "disw",
+          "shortId": "r:Z"
+        },
+        "newName": "keepAlive"
       },
       {
         "nodeRef": {
@@ -8981,6 +9177,70 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "user"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "domain"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "sipInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "d:Leeoy;"
+        },
+        "newName": "transportProtocol"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "e:Leenu;"
+        },
+        "newName": "sipTransactionLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "f:Ldjsv;"
+        },
+        "newName": "logTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "g:Lenjz;"
+        },
+        "newName": "messageFilters"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eenb",
+          "shortId": "h:Leemy;"
+        },
+        "newName": "addressFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "eenf",
           "shortId": "a:Ljava/lang/String;"
         },
@@ -9877,6 +10137,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "c:I"
+        },
+        "newName": "rcsAvailability2Int"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "g:I"
+        },
+        "newName": "imsConnTrackerServiceConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "o:I"
+        },
+        "newName": "rcsTransport"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "p:I"
+        },
+        "newName": "rcsEventServiceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "eovf",
+          "shortId": "r:I"
+        },
+        "newName": "isNetworkAvailableButDeviceInDozeMode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "eoym",
           "shortId": "x:I"
         },
@@ -9901,6 +10201,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "eqqv",
+          "shortId": "e:I"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "eraz",
           "shortId": "O:I"
         },
@@ -9913,6 +10221,14 @@
           "shortId": "ad:I"
         },
         "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ercg",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
       },
       {
         "nodeRef": {
@@ -10469,6 +10785,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ezxj",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "faab",
           "shortId": "b:I"
         },
@@ -10493,7 +10817,23 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "fcwf",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "fcyj",
+          "shortId": "b:I"
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fcyp",
           "shortId": "b:I"
         },
         "newName": "flags"
@@ -11677,6 +12017,50 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "chtg",
+          "shortId": "a()Lcom/google/common/util/concurrent/ListenableFuture;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "rcsToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "chtg",
+          "shortId": "a()Lcom/google/common/util/concurrent/ListenableFuture;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "chtk",
+          "shortId": "c(Lfdcq;)Lcom/google/common/util/concurrent/ListenableFuture;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131078
+        },
+        "newName": "tokenFuture"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "chtk",
+          "shortId": "o()Lj$/util/Optional;"
+        },
+        "newName": "conf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ckvn",
           "shortId": "a()Lckwl;"
         },
@@ -12029,6 +12413,50 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "cmqi",
+          "shortId": "C(Z)I"
+        },
+        "newName": "bool2Int"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cmqi",
+          "shortId": "y(Leovf;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65544
+        },
+        "newName": "AVAILABLE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cmqi",
+          "shortId": "y(Leovf;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655361
+        },
+        "newName": "fromInput"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cmqi",
+          "shortId": "y(Leovf;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "input"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "cmyj",
           "shortId": "b(I)Lcmyj;"
         },
@@ -12357,6 +12785,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.google.android.apps.messaging.shared.rcsprovisioning.RcsProvisioningListenableWorker",
+          "shortId": "k()V"
+        },
+        "newName": "finishProvisioning"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.google.android.gms.common.api.Status",
           "shortId": "c()Z"
         },
@@ -12417,14 +12853,6 @@
           "shortId": "e()I"
         },
         "newName": "version"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "com.google.android.ims.provisioning.config.Configuration",
-          "shortId": "z()Ljava/lang/String;"
-        },
-        "newName": "authToken"
       },
       {
         "nodeRef": {
@@ -14305,6 +14733,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "dhsr",
+          "shortId": "e()Z"
+        },
+        "newName": "isScheduled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dhuk",
           "shortId": "b()Ljava/lang/String;"
         },
@@ -14321,6 +14757,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "dhxg",
+          "shortId": "c()Ldhxd;"
+        },
+        "newName": "state"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dhxw",
           "shortId": "a()Ldhxw;"
         },
@@ -14333,6 +14777,14 @@
           "shortId": "c()V"
         },
         "newName": "init"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhya",
+          "shortId": "b(Ljava/lang/String;)Ldhyd;"
+        },
+        "newName": "make"
       },
       {
         "nodeRef": {
@@ -14473,6 +14925,14 @@
           "shortId": "J()Z"
         },
         "newName": "migrate_jibe_service_from_cs_apk_to_bugle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhyl",
+          "shortId": "N()Z"
+        },
+        "newName": "use_sim_id_from_bugle_for_rcs_config"
       },
       {
         "nodeRef": {
@@ -14765,6 +15225,18 @@
           "index": 17
         },
         "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dipl",
+          "shortId": "G()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "expiry"
       },
       {
         "nodeRef": {
@@ -15138,6 +15610,30 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "disw",
+          "shortId": "B()Z"
+        },
+        "newName": "keepAlive"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "disw",
+          "shortId": "a()F"
+        },
+        "newName": "authQ"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "disw",
+          "shortId": "q()Ljava/lang/String;"
+        },
+        "newName": "getPcscfAddr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "disw",
           "shortId": "toString()Ljava/lang/String;"
         },
         "codeRef": {
@@ -15153,6 +15649,14 @@
           "shortId": "b()I"
         },
         "newName": "rcs_state"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ditf",
+          "shortId": "z()Ljava/lang/String;"
+        },
+        "newName": "tachyonAuthToken"
       },
       {
         "nodeRef": {
@@ -16926,9 +17430,25 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "djce",
+          "shortId": "j(Ljava/lang/String;)Lj$/util/Optional;"
+        },
+        "newName": "getConf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
           "shortId": "p(Ljava/lang/String;)Ljava/lang/String;"
         },
         "newName": "getProvAttestNonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djce",
+          "shortId": "q()Ljava/lang/String;"
+        },
+        "newName": "simIdFromBugle"
       },
       {
         "nodeRef": {
@@ -18789,6 +19309,14 @@
           "shortId": "F()Leeqi;"
         },
         "newName": "makeAllow"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djub",
+          "shortId": "a(Leesx;)I"
+        },
+        "newName": "minExpires"
       },
       {
         "nodeRef": {
@@ -21477,6 +22005,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "eozk",
+          "shortId": "a(I)I"
+        },
+        "newName": "addOne"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "eqqv",
+          "shortId": "b(I)Leqqv;"
+        },
+        "newName": "fromInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "eraz",
           "shortId": "b(I)Leraz;"
         },
@@ -21497,6 +22041,14 @@
           "shortId": "g(Lcom/google/common/util/concurrent/ListenableFuture;Leruc;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture;"
         },
         "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "erub",
+          "shortId": "a()Lcom/google/common/util/concurrent/ListenableFuture;"
+        },
+        "newName": "func"
       },
       {
         "nodeRef": {
@@ -25214,36 +25766,36 @@
   "cacheDir": "/Users/ben/Library/Caches/io.github.skylot.jadx/projects/Google Messages_messages.android_20250723_00_RC01.phone_dynamic_APKPure.xapk-4b05236ba83126d8314847f4481aa15e",
   "enableLiveReload": false,
   "searchHistory": [
-    "Enabled chat transport for SIM",
-    "RcsEngineLifecycleServiceV2",
-    "Service is deprecated skipping connection attempt",
-    "cusm",
-    "mcj",
-    "cusl",
-    "connecting to %d Rcs Services",
-    "tachygram",
-    "tachyon.*pa.googleapis",
-    "Tachyon",
-    "ditto",
-    "Advertising Tachygram capability",
-    "Actively accessing legacy Rcs services",
-    "RCS not configured for dual-registration",
-    "SINGLE_REG",
-    "TRANSPORT_RCS",
-    "Register SIM with subId",
-    "white_listed_packages",
-    "overrides.txt",
-    "carrier_services",
-    "content://com.google.android.gms.p",
-    "tachyon_phone_reg",
-    "sensitive_log",
-    "Tachygram setup",
-    "sip.instance",
-    "sip",
-    "DUAL_REG",
-    "TACHYGRAM",
-    "AIzaSyAjKazdIYitdprpqlEAYHkgTae00yoo8rQ",
-    "provisioning_rcs_profile"
+    "Failed to register with Tachyon",
+    "\"rcs_availability\"",
+    "self.*service.*message.*id",
+    "z9hG4bK",
+    "\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e",
+    "sending SIP registration request",
+    "\\u0000\\u0002\\u0000\\u0000\\u0001\\u0002\\u0002\\u0000\\u0000\\u0000\\u0001Ȉ\\u0002\\f",
+    "Creating RegisterRequest with RCS token for Jibe",
+    "Logging SIP registration",
+    "Discovering sip proxies for",
+    "No configuration available, RCS not started",
+    "sslsocket",
+    "jibe_sip",
+    "triggerStartRcsStack",
+    "Cannot get service version because CS.apk was not found",
+    "Initializing RCS Engine for Bugle host",
+    "initializing DR provisioning",
+    "pcscf",
+    "telephony.goog",
+    "RcsAvailability2",
+    "processRcsReadinessReason",
+    "finish provisioning task with result",
+    "verifyMsisdnState",
+    "State transition requested",
+    "Tachygram disabled in RCS config",
+    "RcsReadinessConditions:",
+    "_deprecated",
+    "ImsConnectionTrackerService",
+    "RcsMessagingService",
+    "Service is deprecated skipping connection attempt"
   ],
   "searchResourcesFilter": "*",
   "searchResourcesSizeLimit": 0,
